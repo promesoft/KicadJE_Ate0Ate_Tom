@@ -34,8 +34,7 @@ First Drum module
 | Power Draw |  | 
 
 ## Errata
-### Errata - VCO3
-
+### Errata - Ate0Ate Tom
 
 ## Issues and Notes
 ### Tom
