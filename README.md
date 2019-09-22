@@ -1,7 +1,7 @@
 # KicadJE_Ate0Ate_Tom
 Based on Hexinverter
 
-Third VCO - based on Format VCO (VCO3)
+First Drum module
 
 # Purpose
 1 - Match Hexinverter sch with Resynthesis panel
