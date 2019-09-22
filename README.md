@@ -55,3 +55,4 @@ Third VCO - based on Format VCO (VCO3)
 ![]()
 
 # Inspiration from 
+https://www.resynthesis.shop/epages/zuunneamm4zd.sf/en_GB/?ObjectPath=/Shops/zuunneamm4zd/Products/REEU-HEX-808-TM1
