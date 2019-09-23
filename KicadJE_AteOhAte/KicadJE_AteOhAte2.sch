@@ -2166,7 +2166,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2050 2100 2050
 Wire Wire Line
-	1500 2500 2200 2500
+	1500 2500 1850 2500
 Wire Wire Line
 	2200 2500 2200 2450
 Connection ~ 1500 2500
@@ -2369,7 +2369,7 @@ F 3 "~" H 5450 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 1350 5450 1350
+	3200 1350 3900 1350
 Wire Wire Line
 	5450 1350 5450 1500
 Connection ~ 3200 1350
@@ -2401,4 +2401,32 @@ Text Label 3650 5350 0    50   ~ 0
 PNP_E
 Text Label 3650 5950 0    50   ~ 0
 Coupling
+$Comp
+L Connector:TestPoint TP201
+U 1 1 5F5477D7
+P 3900 1350
+F 0 "TP201" H 3958 1468 50  0000 L CNN
+F 1 "WhiteNoise" H 3958 1377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4100 1350 50  0001 C CNN
+F 3 "~" H 4100 1350 50  0001 C CNN
+	1    3900 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 1350
+Wire Wire Line
+	3900 1350 5450 1350
+$Comp
+L Connector:TestPoint TP202
+U 1 1 5F552749
+P 1850 2500
+F 0 "TP202" H 1908 2618 50  0000 L CNN
+F 1 "GND" H 1908 2527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 2050 2500 50  0001 C CNN
+F 3 "~" H 2050 2500 50  0001 C CNN
+	1    1850 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 2500
+Wire Wire Line
+	1850 2500 2200 2500
 $EndSCHEMATC
