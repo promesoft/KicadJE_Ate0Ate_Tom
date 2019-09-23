@@ -37,10 +37,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8600 3750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT RV202
+L Device:R_POT RV203
 U 1 1 5C7A3722
 P 8650 2900
-F 0 "RV202" V 8650 3000 50  0000 R CNN
+F 0 "RV203" V 8650 3000 50  0000 R CNN
 F 1 "1M Decay" V 8550 3050 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal" H 8650 2900 50  0001 C CNN
 F 3 "~" H 8650 2900 50  0001 C CNN
@@ -335,10 +335,10 @@ Wire Wire Line
 	4350 1650 4350 1450
 Connection ~ 3650 1650
 $Comp
-L Device:R_POT RV203
+L Device:R_POT RV204
 U 1 1 5D2D1445
 P 9100 6000
-F 0 "RV203" V 9100 6150 50  0000 R CNN
+F 0 "RV204" V 9100 6150 50  0000 R CNN
 F 1 "100k A Reverb" V 9150 5800 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal" H 9100 6000 50  0001 C CNN
 F 3 "~" H 9100 6000 50  0001 C CNN
@@ -1838,7 +1838,7 @@ U 1 1 5CF47952
 P 6450 1300
 F 0 "J202" H 6217 1371 50  0000 R CNN
 F 1 "In Gate" H 6217 1280 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 6450 1300 50  0001 C CNN
+F 2 "AJ-Dropbox-Kicad:PJ301SM" H 6450 1300 50  0001 C CNN
 F 3 "~" H 6450 1300 50  0001 C CNN
 F 4 "VC input" H 6450 1300 50  0001 C CNN "Function"
 	1    6450 1300
@@ -1968,10 +1968,10 @@ Wire Notes Line
 Wire Notes Line
 	8950 1850 8950 550 
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV202
 U 1 1 5E2AEA3B
 P 10350 2650
-F 0 "RV?" V 10350 2800 50  0000 R CNN
+F 0 "RV202" V 10350 2800 50  0000 R CNN
 F 1 "100k A Level" V 10400 2450 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal" H 10350 2650 50  0001 C CNN
 F 3 "~" H 10350 2650 50  0001 C CNN
