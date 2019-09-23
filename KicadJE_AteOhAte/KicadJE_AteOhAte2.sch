@@ -1957,4 +1957,14 @@ Wire Notes Line
 	8850 1850 8850 550 
 Wire Notes Line
 	8850 550  4900 550 
+Text Notes 9150 1650 0    50   ~ 0
+Tom LT      MT    HT\nC4    39n    33n    33n\nC6    47n    33n    27n\nC7    18n    15n    10n\nC8    6n8    2n7    2n7\nC9    56n    27n    27n\nC10  12n    12n    5n6\nC11  47n    27n    22n\nC12  47n    39n    33n\nR17  1k5    2k5    1k5\nR18  4k7    6k8    5k6
+Wire Notes Line
+	8950 550  10250 550 
+Wire Notes Line
+	10250 550  10250 1850
+Wire Notes Line
+	10250 1850 8950 1850
+Wire Notes Line
+	8950 1850 8950 550 
 $EndSCHEMATC
