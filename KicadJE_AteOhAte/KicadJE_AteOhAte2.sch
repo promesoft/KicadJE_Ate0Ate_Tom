@@ -30,12 +30,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL072 U201
 U 2 1 5C723E70
-P 8500 3850
-F 0 "U201" H 8525 4050 50  0000 C CNN
-F 1 "TL072" H 8500 4126 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 8500 3850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8500 3850 50  0001 C CNN
-	2    8500 3850
+P 8350 3150
+F 0 "U201" H 8375 3350 50  0000 C CNN
+F 1 "TL072" H 8350 3426 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 8350 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8350 3150 50  0001 C CNN
+	2    8350 3150
 	1    0    0    1   
 $EndComp
 $Comp
@@ -52,12 +52,12 @@ $EndComp
 $Comp
 L Device:R_POT RV201
 U 1 1 5C7A37D8
-P 7400 3250
-F 0 "RV201" V 7600 3325 50  0000 R CNN
-F 1 "20k_Out1" V 7600 3050 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 7400 3250 50  0001 C CNN
-F 3 "~" H 7400 3250 50  0001 C CNN
-	1    7400 3250
+P 7350 1250
+F 0 "RV201" V 7550 1325 50  0000 R CNN
+F 1 "20k_Out1" V 7550 1050 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 7350 1250 50  0001 C CNN
+F 3 "~" H 7350 1250 50  0001 C CNN
+	1    7350 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -281,12 +281,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL072 U201
 U 1 1 5CE1CD21
-P 8550 5150
-F 0 "U201" H 8550 5517 50  0000 C CNN
-F 1 "TL072" H 8550 5426 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 8550 5150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8550 5150 50  0001 C CNN
-	1    8550 5150
+P 7000 3050
+F 0 "U201" H 7000 3417 50  0000 C CNN
+F 1 "TL072" H 7000 3326 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 7000 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7000 3050 50  0001 C CNN
+	1    7000 3050
 	1    0    0    1   
 $EndComp
 $Comp
@@ -347,23 +347,23 @@ $EndComp
 $Comp
 L Switch:SW_DPDT_x2 SW201
 U 1 1 5D077A76
-P 7700 4200
-F 0 "SW201" H 7650 4050 50  0000 C CNN
-F 1 "Out 1" H 7775 4175 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:SPDTx2" H 7700 4200 50  0001 C CNN
-F 3 "~" H 7700 4200 50  0001 C CNN
-	1    7700 4200
-	1    0    0    -1  
+P 6000 3800
+F 0 "SW201" H 5950 3650 50  0000 C CNN
+F 1 "Out 1" H 6075 3775 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:SPDTx2" H 6000 3800 50  0001 C CNN
+F 3 "~" H 6000 3800 50  0001 C CNN
+	1    6000 3800
+	0    1    1    0   
 $EndComp
 $Comp
 L Switch:SW_DPDT_x2 SW201
 U 2 1 5D077BCB
-P 7700 4750
-F 0 "SW201" H 8075 4750 50  0000 C CNN
-F 1 "Out 1" H 8075 4850 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:SPDTx2" H 7700 4750 50  0001 C CNN
-F 3 "~" H 7700 4750 50  0001 C CNN
-	2    7700 4750
+P 6650 1200
+F 0 "SW201" H 7025 1200 50  0000 C CNN
+F 1 "Out 1" H 7025 1300 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:SPDTx2" H 6650 1200 50  0001 C CNN
+F 3 "~" H 6650 1200 50  0001 C CNN
+	2    6650 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -475,12 +475,12 @@ OutTom
 $Comp
 L Device:R_POT RV202
 U 1 1 5D2D1445
-P 8250 3250
-F 0 "RV202" V 8450 3325 50  0000 R CNN
-F 1 "20k_Out2" V 8450 3050 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 8250 3250 50  0001 C CNN
-F 3 "~" H 8250 3250 50  0001 C CNN
-	1    8250 3250
+P 8150 1250
+F 0 "RV202" V 8350 1325 50  0000 R CNN
+F 1 "20k_Out2" V 8350 1050 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_China_RK09_Single_Vertical_AJ" H 8150 1250 50  0001 C CNN
+F 3 "~" H 8150 1250 50  0001 C CNN
+	1    8150 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1407,4 +1407,201 @@ $EndComp
 Wire Wire Line
 	5550 5150 5550 4650
 Connection ~ 5550 5150
+$Comp
+L Device:D D?
+U 1 1 5DB4242C
+P 5900 4500
+F 0 "D?" V 5975 4425 50  0000 L CNN
+F 1 "1N4148" V 5800 4400 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5900 4500 50  0001 C CNN
+F 3 "~" H 5900 4500 50  0001 C CNN
+	1    5900 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 4350 5550 4250
+Wire Wire Line
+	5550 4250 5900 4250
+Wire Wire Line
+	5900 4250 5900 4350
+$Comp
+L Device:R R?
+U 1 1 5DB4BBA5
+P 5550 3850
+F 0 "R?" V 5550 3850 50  0000 C CNN
+F 1 "22k" V 5450 3925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5480 3850 50  0001 C CNN
+F 3 "~" H 5550 3850 50  0001 C CNN
+	1    5550 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4000 5550 4250
+Connection ~ 5550 4250
+$Comp
+L Device:R R?
+U 1 1 5DB55334
+P 5850 3500
+F 0 "R?" V 5850 3500 50  0000 C CNN
+F 1 "R17" V 5750 3575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5780 3500 50  0001 C CNN
+F 3 "~" H 5850 3500 50  0001 C CNN
+	1    5850 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 3700 5550 3500
+Wire Wire Line
+	5550 3500 5700 3500
+Wire Wire Line
+	6000 3600 6000 3500
+Wire Wire Line
+	6100 4000 6100 4750
+Wire Wire Line
+	6100 4750 5900 4750
+Wire Wire Line
+	5900 4750 5900 4650
+$Comp
+L power:GND #PWR?
+U 1 1 5DB7B221
+P 5900 4950
+F 0 "#PWR?" H 5900 4700 50  0001 C CNN
+F 1 "GND" H 5905 4777 50  0000 C CNN
+F 2 "" H 5900 4950 50  0001 C CNN
+F 3 "" H 5900 4950 50  0001 C CNN
+	1    5900 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4950 5900 4750
+Connection ~ 5900 4750
+$Comp
+L Device:R R?
+U 1 1 5DB85070
+P 5850 3300
+F 0 "R?" V 5850 3300 50  0000 C CNN
+F 1 "R18" V 5750 3375 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5780 3300 50  0001 C CNN
+F 3 "~" H 5850 3300 50  0001 C CNN
+	1    5850 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 3300 6300 3300
+Wire Wire Line
+	6300 3300 6300 4750
+Wire Wire Line
+	6300 4750 6100 4750
+Connection ~ 6100 4750
+Wire Wire Line
+	5550 3500 5550 3300
+Wire Wire Line
+	5550 3300 5700 3300
+Connection ~ 5550 3500
+Wire Wire Line
+	5550 3300 5550 3150
+Wire Wire Line
+	5550 3150 6700 3150
+Connection ~ 5550 3300
+$Comp
+L Device:R R?
+U 1 1 5DBB95FB
+P 7000 2600
+F 0 "R?" V 7000 2600 50  0000 C CNN
+F 1 "820k" V 6900 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 2600 50  0001 C CNN
+F 3 "~" H 7000 2600 50  0001 C CNN
+	1    7000 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 2950 6550 2950
+Wire Wire Line
+	6550 2950 6550 2600
+Wire Wire Line
+	6550 2600 6850 2600
+Wire Wire Line
+	7300 3050 7450 3050
+Wire Wire Line
+	7450 3050 7450 2600
+Wire Wire Line
+	7450 2600 7150 2600
+$Comp
+L power:+12V #PWR?
+U 1 1 5DBCEDE7
+P 7300 4900
+F 0 "#PWR?" H 7300 4750 50  0001 C CNN
+F 1 "+12V" H 7315 5073 50  0000 C CNN
+F 2 "" H 7300 4900 50  0001 C CNN
+F 3 "" H 7300 4900 50  0001 C CNN
+	1    7300 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5000 7300 4900
+$Comp
+L Device:C C?
+U 1 1 5DBDA4A3
+P 6750 2250
+F 0 "C?" V 6550 2175 50  0000 L CNN
+F 1 "C9" V 6900 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6788 2100 50  0001 C CNN
+F 3 "~" H 6750 2250 50  0001 C CNN
+	1    6750 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBDACD1
+P 7250 2250
+F 0 "C?" V 7050 2175 50  0000 L CNN
+F 1 "C10" V 7400 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7288 2100 50  0001 C CNN
+F 3 "~" H 7250 2250 50  0001 C CNN
+	1    7250 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 2600 6550 2250
+Wire Wire Line
+	6550 2250 6600 2250
+Connection ~ 6550 2600
+Wire Wire Line
+	6900 2250 7100 2250
+Wire Wire Line
+	7450 2600 7450 2250
+Wire Wire Line
+	7450 2250 7400 2250
+Connection ~ 7450 2600
+$Comp
+L Device:R R?
+U 1 1 5DBFF1F2
+P 7750 3050
+F 0 "R?" V 7750 3050 50  0000 C CNN
+F 1 "33k" V 7650 3125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7680 3050 50  0001 C CNN
+F 3 "~" H 7750 3050 50  0001 C CNN
+	1    7750 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 3050 7450 3050
+Connection ~ 7450 3050
+Wire Wire Line
+	7900 3050 8050 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5DC16324
+P 7900 3300
+F 0 "#PWR?" H 7900 3050 50  0001 C CNN
+F 1 "GND" H 7905 3127 50  0000 C CNN
+F 2 "" H 7900 3300 50  0001 C CNN
+F 3 "" H 7900 3300 50  0001 C CNN
+	1    7900 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3300 7900 3250
+Wire Wire Line
+	7900 3250 8050 3250
 $EndSCHEMATC
