@@ -275,7 +275,7 @@ F 1 "Con/Tom" H 5450 3950 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:SPDTx2" H 5550 3850 50  0001 C CNN
 F 3 "~" H 5550 3850 50  0001 C CNN
 	2    5550 3850
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0221
