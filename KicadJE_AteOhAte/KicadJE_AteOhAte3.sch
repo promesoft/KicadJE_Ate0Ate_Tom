@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "RIAA"
+Date "2019-09-25"
+Rev "Rev A"
+Comp "Johansen Engineering"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -295,22 +295,6 @@ F 3 "~" H 6250 6625 50  0001 C CNN
 	1    6250 6625
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J?
-U 1 1 5D799508
-P 4675 6550
-AR Path="/5CF11B19/5D799508" Ref="J?"  Part="1" 
-AR Path="/5D4DB615/5D799508" Ref="J302"  Part="1" 
-F 0 "J302" H 4442 6621 50  0000 R CNN
-F 1 "In_1" H 4442 6530 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:PJ301SM" H 4675 6550 50  0001 C CNN
-F 3 "~" H 4675 6550 50  0001 C CNN
-F 4 "VC input" H 4675 6550 50  0001 C CNN "Function"
-	1    4675 6550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4475 6450 4325 6450
 Wire Wire Line
 	6050 6125 5900 6125
 Wire Wire Line
@@ -342,25 +326,14 @@ F 3 "~" H 4075 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4225 6550 4375 6550
-Wire Wire Line
 	5900 6125 5900 6525
 Connection ~ 3875 6550
 Wire Wire Line
 	3875 6550 3925 6550
 Wire Wire Line
-	4325 6450 4325 6700
-Wire Wire Line
 	3875 6700 3925 6700
 Wire Wire Line
 	3875 6550 3875 6700
-Wire Wire Line
-	4225 6700 4325 6700
-Connection ~ 4325 6700
-Wire Wire Line
-	4325 6700 4325 6900
-Wire Wire Line
-	4475 6900 4325 6900
 $Comp
 L Device:R R?
 U 1 1 5D799528
@@ -387,20 +360,13 @@ F 3 "~" H 4075 7150 50  0001 C CNN
 	1    4075 7150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4225 7000 4425 7000
 Connection ~ 3875 7000
 Wire Wire Line
 	3875 7000 3925 7000
 Wire Wire Line
-	4325 6900 4325 7150
-Wire Wire Line
 	3875 7150 3925 7150
 Wire Wire Line
 	3875 7000 3875 7150
-Wire Wire Line
-	4225 7150 4325 7150
-Connection ~ 4325 6900
 $Comp
 L power:GND #PWR?
 U 1 1 5D79953C
@@ -421,49 +387,20 @@ Out1_Dist
 $Comp
 L power:GND #PWR?
 U 1 1 5D799544
-P 4325 7350
+P 4800 7250
 AR Path="/5CF11B19/5D799544" Ref="#PWR?"  Part="1" 
 AR Path="/5D4DB615/5D799544" Ref="#PWR0313"  Part="1" 
-F 0 "#PWR0313" H 4325 7100 50  0001 C CNN
-F 1 "GND" H 4330 7177 50  0000 C CNN
-F 2 "" H 4325 7350 50  0001 C CNN
-F 3 "" H 4325 7350 50  0001 C CNN
-	1    4325 7350
+F 0 "#PWR0313" H 4800 7000 50  0001 C CNN
+F 1 "GND" H 4805 7077 50  0000 C CNN
+F 2 "" H 4800 7250 50  0001 C CNN
+F 3 "" H 4800 7250 50  0001 C CNN
+	1    4800 7250
 	1    0    0    -1  
 $EndComp
-Connection ~ 4325 7150
-$Comp
-L Connector:AudioJack2_SwitchT J?
-U 1 1 5D79954C
-P 4675 7000
-AR Path="/5CF11B19/5D79954C" Ref="J?"  Part="1" 
-AR Path="/5D4DB615/5D79954C" Ref="J304"  Part="1" 
-F 0 "J304" H 4442 7071 50  0000 R CNN
-F 1 "In 2" H 4442 6980 50  0000 R CNN
-F 2 "AJ-Dropbox-Kicad:PJ301SM" H 4675 7000 50  0001 C CNN
-F 3 "~" H 4675 7000 50  0001 C CNN
-F 4 "VC input" H 4675 7000 50  0001 C CNN "Function"
-	1    4675 7000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4475 7100 4375 7100
-Wire Wire Line
-	4375 7100 4375 6550
-Connection ~ 4375 6550
-Wire Wire Line
-	4375 6550 4475 6550
-Wire Wire Line
-	4475 6650 4425 6650
-Wire Wire Line
-	4425 6650 4425 7000
-Connection ~ 4425 7000
-Wire Wire Line
-	4425 7000 4475 7000
 Text GLabel 3275 6550 0    50   Input ~ 0
-In_1
+In_L
 Text GLabel 3275 7000 0    50   Input ~ 0
-In_2
+In_R
 Wire Wire Line
 	3275 7000 3425 7000
 Wire Wire Line
@@ -481,8 +418,6 @@ F 3 "~" H 3575 6550 50  0001 C CNN
 	1    3575 6550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3725 6550 3750 6550
 $Comp
 L Device:C C?
 U 1 1 5D799565
@@ -496,8 +431,6 @@ F 3 "~" H 3575 7000 50  0001 C CNN
 	1    3575 7000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3725 7000 3750 7000
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5D79956C
@@ -520,49 +453,6 @@ Wire Wire Line
 Text GLabel 5525 7375 0    50   Input ~ 0
 Out2_Final
 Connection ~ 5900 6525
-$Comp
-L Device:D_Zener D?
-U 1 1 5D799579
-P 3750 6700
-AR Path="/5CF11B19/5D799579" Ref="D?"  Part="1" 
-AR Path="/5D4DB615/5D799579" Ref="D311"  Part="1" 
-F 0 "D311" V 3704 6779 50  0000 L CNN
-F 1 "D_Zener" V 3795 6779 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 3750 6700 50  0001 C CNN
-F 3 "~" H 3750 6700 50  0001 C CNN
-	1    3750 6700
-	0    1    1    0   
-$EndComp
-Connection ~ 3750 6550
-Wire Wire Line
-	3750 6550 3875 6550
-$Comp
-L Device:D_Zener D?
-U 1 1 5D799581
-P 3750 7150
-AR Path="/5CF11B19/5D799581" Ref="D?"  Part="1" 
-AR Path="/5D4DB615/5D799581" Ref="D312"  Part="1" 
-F 0 "D312" V 3704 7229 50  0000 L CNN
-F 1 "D_Zener" V 3795 7229 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 3750 7150 50  0001 C CNN
-F 3 "~" H 3750 7150 50  0001 C CNN
-	1    3750 7150
-	0    1    1    0   
-$EndComp
-Connection ~ 3750 7000
-Wire Wire Line
-	3750 7000 3875 7000
-Wire Wire Line
-	3750 6850 3750 6900
-Wire Wire Line
-	3750 6900 4325 6900
-Wire Wire Line
-	4325 7150 4325 7300
-Wire Wire Line
-	3750 7300 4325 7300
-Connection ~ 4325 7300
-Wire Wire Line
-	4325 7300 4325 7350
 Wire Wire Line
 	1850 6575 2125 6575
 Wire Wire Line
@@ -615,10 +505,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4725 4550 50  0001 C CNN
 	2    4725 4550
 	1    0    0    1   
 $EndComp
-Text GLabel 3950 2450 0    50   Input ~ 0
-In_1
-Text GLabel 3925 4450 0    50   Input ~ 0
-In_2
 $Comp
 L Device:R R?
 U 1 1 5D7F1B15
@@ -649,8 +535,6 @@ Wire Wire Line
 	4450 2250 4300 2250
 Wire Wire Line
 	4300 2250 4300 1950
-Wire Wire Line
-	5250 1950 5250 2000
 Wire Wire Line
 	5250 2350 5050 2350
 $Comp
@@ -1003,12 +887,6 @@ Wire Notes Line
 	3000 5925 3000 7725
 Wire Notes Line
 	5100 5925 5100 7725
-Text HLabel 5175 4100 1    50   Input ~ 0
-POT3_H
-Text HLabel 5075 4100 1    50   Input ~ 0
-POT3_C
-Text HLabel 4975 4100 1    50   Input ~ 0
-POT3_L
 $Comp
 L Diode:LL4148 D?
 U 1 1 5D8A10F8
@@ -1065,25 +943,9 @@ Wire Wire Line
 Connection ~ 4375 3725
 Wire Wire Line
 	4550 4125 4625 4125
-Wire Wire Line
-	4975 4125 4975 4100
 Connection ~ 4550 4125
 Wire Wire Line
-	5075 4100 5075 4125
-Wire Wire Line
-	5075 4125 5175 4125
-Connection ~ 5275 4125
-Wire Wire Line
-	5275 4125 5275 4450
-Wire Wire Line
-	5175 4100 5175 4125
-Connection ~ 5175 4125
-Wire Wire Line
-	5175 4125 5275 4125
-Wire Wire Line
 	5275 3725 4950 3725
-Wire Wire Line
-	5275 3725 5275 4125
 Wire Wire Line
 	4150 3725 4150 3825
 Wire Wire Line
@@ -1160,14 +1022,6 @@ F 3 "~" H 4775 4125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4925 4125 4975 4125
-Text HLabel 8200 3925 1    50   Input ~ 0
-POT4_H
-Text HLabel 8100 3925 1    50   Input ~ 0
-POT4_C
-Text HLabel 8000 3925 1    50   Input ~ 0
-POT4_L
-Wire Wire Line
 	8275 3925 8275 4550
 Wire Wire Line
 	7475 3925 7600 3925
@@ -1188,30 +1042,6 @@ F 3 "~" H 8725 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8875 4550 8925 4550
-Wire Wire Line
-	8100 3925 8275 3925
-Wire Wire Line
-	8000 3925 7900 3925
-Text HLabel 4900 1950 1    50   Input ~ 0
-POT1_H
-Text HLabel 4800 1950 1    50   Input ~ 0
-POT1_C
-Text HLabel 4700 1950 1    50   Input ~ 0
-POT1_L
-Wire Wire Line
-	4700 1950 4300 1950
-Wire Wire Line
-	4800 1950 5250 1950
-Text HLabel 7925 1950 1    50   Input ~ 0
-POT2_H
-Text HLabel 7825 1950 1    50   Input ~ 0
-POT2_C
-Text HLabel 7725 1950 1    50   Input ~ 0
-POT2_L
-Wire Wire Line
-	7725 1950 7400 1950
-Wire Wire Line
-	7825 1950 8300 1950
 $Comp
 L Device:R R?
 U 1 1 5D9BF36E
@@ -1242,7 +1072,6 @@ F 3 "~" H 7125 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7275 1950 7400 1950
-Connection ~ 7400 1950
 $Comp
 L power:GND #PWR?
 U 1 1 5D9C7B23
@@ -1348,7 +1177,6 @@ Wire Wire Line
 	5250 1475 5150 1475
 Wire Wire Line
 	5250 1475 5250 1575
-Connection ~ 5250 1950
 Wire Wire Line
 	4850 1075 4300 1075
 Wire Wire Line
@@ -1376,8 +1204,6 @@ F 3 "~" H 5250 1725 50  0001 C CNN
 	1    5250 1725
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 1875 5250 1950
 $Comp
 L Diode:LL4148 D?
 U 1 1 5DA35A3E
@@ -1669,4 +1495,47 @@ Wire Wire Line
 Wire Wire Line
 	3850 4125 4150 4125
 Connection ~ 4150 4125
+$Comp
+L Connector:Conn_Coaxial_x2 J?
+U 1 1 5DBB8503
+P 4800 6650
+F 0 "J?" H 4728 6988 50  0000 C CNN
+F 1 "Conn_Coaxial_x2" H 4728 6897 50  0000 C CNN
+F 2 "" H 4800 6550 50  0001 C CNN
+F 3 " ~" H 4800 6550 50  0001 C CNN
+	1    4800 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 3725 5275 4450
+Wire Wire Line
+	5250 1875 5250 2000
+Wire Wire Line
+	3725 6550 3875 6550
+Wire Wire Line
+	3725 7000 3875 7000
+Wire Wire Line
+	4800 6950 4800 7150
+Wire Wire Line
+	4600 6550 4225 6550
+Wire Wire Line
+	4225 7000 4600 7000
+Wire Wire Line
+	4600 7000 4600 6750
+Wire Wire Line
+	4225 6700 4450 6700
+Wire Wire Line
+	4450 6700 4450 7150
+Wire Wire Line
+	4450 7150 4800 7150
+Connection ~ 4800 7150
+Wire Wire Line
+	4800 7150 4800 7250
+Wire Wire Line
+	4225 7150 4450 7150
+Connection ~ 4450 7150
+Text GLabel 2825 3075 0    50   Input ~ 0
+In_L
+Text GLabel 2825 3525 0    50   Input ~ 0
+In_R
 $EndSCHEMATC
