@@ -2430,10 +2430,10 @@ Connection ~ 1850 2500
 Wire Wire Line
 	1850 2500 2200 2500
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP203
 U 1 1 5DA7BFEF
 P 3800 5950
-F 0 "TP?" H 3858 6068 50  0000 L CNN
+F 0 "TP203" H 3858 6068 50  0000 L CNN
 F 1 "Coupling" H 3858 5977 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4000 5950 50  0001 C CNN
 F 3 "~" H 4000 5950 50  0001 C CNN
