@@ -1,4 +1,4 @@
-16234118153023572
+16238826720054068
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 Neosid, Air-Coil, SML, 1turn, HDM0131A,
@@ -217,6 +217,13 @@ MT3608 DCDC-Module-USB
 4
 4
 AJ
+NINIGI_DC-005
+
+
+0
+3
+3
+AJ
 PinHeader_1x02_P2.54mm_Vertical
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
 Through hole pin header THT 1x02 2.54mm single row
@@ -244,6 +251,13 @@ PJ301SM
 0
 3
 3
+AJ
+PJRAS2X2S01AUX_RCA
+
+
+0
+8
+8
 AJ
 Potentiometer_China_RK09_Single_Vertical_AJ
 Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html
@@ -307,6 +321,13 @@ to-92 sc-43 sc-43a sot54 PA33 transistor
 0
 3
 3
+AJ
+UMX1N_UMT6_DualNPN
+<b>UMT6 Package</b> EIAJ: SC-88<p>Source: http://www.rohm.com/products/databook/tr/pdf/umx1n.pdf
+
+0
+6
+6
 AJ
 XL4005-DCDC-Module
 
