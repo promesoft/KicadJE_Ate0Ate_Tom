@@ -479,15 +479,15 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DA66984
-P 950 6775
+P 950 6575
 AR Path="/5CF11B19/5DA66984" Ref="R?"  Part="1" 
 AR Path="/5D4DB615/5DA66984" Ref="R327"  Part="1" 
-F 0 "R327" V 1000 6575 50  0000 C CNN
-F 1 "12k" V 950 6800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 880 6775 50  0001 C CNN
-F 3 "~" H 950 6775 50  0001 C CNN
-	1    950  6775
-	0    -1   -1   0   
+F 0 "R327" V 1000 6375 50  0000 C CNN
+F 1 "12k" V 950 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 880 6575 50  0001 C CNN
+F 3 "~" H 950 6575 50  0001 C CNN
+	1    950  6575
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3725 7100 3875 7100
@@ -1995,8 +1995,6 @@ Connection ~ 1625 6875
 Wire Wire Line
 	800  6975 800  7175
 Connection ~ 1825 7175
-Wire Wire Line
-	800  6775 800  6575
 Connection ~ 1825 6575
 $Comp
 L Device:CP C345
@@ -2064,11 +2062,6 @@ Text Label 800  6725 0    50   ~ 0
 Text Label 800  6975 0    50   ~ 0
 -PSU
 Wire Wire Line
-	800  6875 1300 6875
-Connection ~ 800  6775
-Wire Wire Line
-	1100 6775 1175 6775
-Wire Wire Line
 	1175 6775 1175 6800
 Wire Wire Line
 	1175 7100 1175 7175
@@ -2077,26 +2070,24 @@ Wire Wire Line
 Connection ~ 1175 7175
 Wire Wire Line
 	1175 7175 1200 7175
-Wire Wire Line
-	800  6575 825  6575
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F301
 U 1 1 5E31D915
-P 975 6575
-F 0 "F?" V 750 6575 50  0000 C CNN
-F 1 "Polyfuse" V 841 6575 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 1025 6375 50  0001 L CNN
-F 3 "~" H 975 6575 50  0001 C CNN
-	1    975  6575
-	0    1    1    0   
+P 800 6575
+F 0 "F301" H 950 6325 50  0000 R CNN
+F 1 "Polyfuse" H 1100 6375 50  0000 R CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 850 6375 50  0001 L CNN
+F 3 "~" H 800 6575 50  0001 C CNN
+	1    800  6575
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1125 6575 1200 6575
 $Comp
-L Device:Polyfuse F?
+L Device:Polyfuse F302
 U 1 1 5E31EB29
 P 975 7175
-F 0 "F?" V 1125 7175 50  0000 C CNN
+F 0 "F302" V 1125 7175 50  0000 C CNN
 F 1 "Polyfuse" V 1050 7175 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" H 1025 6975 50  0001 L CNN
 F 3 "~" H 975 7175 50  0001 C CNN
@@ -2105,4 +2096,19 @@ F 3 "~" H 975 7175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1125 7175 1175 7175
+Wire Wire Line
+	800  6725 800  6775
+Wire Wire Line
+	950  6775 950  6725
+Wire Wire Line
+	950  6775 1175 6775
+Wire Wire Line
+	800  6425 950  6425
+Wire Wire Line
+	950  6425 1125 6425
+Wire Wire Line
+	1125 6425 1125 6575
+Connection ~ 950  6425
+Wire Wire Line
+	800  6875 1500 6875
 $EndSCHEMATC
