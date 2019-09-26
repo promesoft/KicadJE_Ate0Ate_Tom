@@ -44,6 +44,7 @@ First Drum module
 
 # Pictures
 ![]()
+![](AteOhAte_TOMS_schematic_v1.png)
 
 # Inspiration from 
 https://www.resynthesis.shop/epages/zuunneamm4zd.sf/en_GB/?ObjectPath=/Shops/zuunneamm4zd/Products/REEU-HEX-808-TM1
