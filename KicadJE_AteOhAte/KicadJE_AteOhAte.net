@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\anders\Documents\KiCad\Projects\KicadJE_Ate0Ate_Tom\KicadJE_AteOhAte\KicadJE_AteOhAte.sch)
-    (date "26/09/2019 21:28:51")
+    (date "26/09/2019 21:30:43")
     (tool "Eeschema (5.1.0)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1029,7 +1029,7 @@
       (tstamp 5DC928C4))
     (comp (ref J301)
       (value PJRAS2X2S01AUX)
-      (footprint PJRAS2X2S01AUX)
+      (footprint AJ:PJRAS2X2S01AUX_RCA)
       (fields
         (field (name Field4) PJRAS2X2S01AUX)
         (field (name Field5) Unavailable)
