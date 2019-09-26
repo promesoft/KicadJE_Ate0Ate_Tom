@@ -59,17 +59,6 @@ F 3 "~" H 4550 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0202
-U 1 1 5C3F858C
-P 8375 1400
-F 0 "#FLG0202" H 8375 1475 50  0001 C CNN
-F 1 "PWR_FLAG" H 8375 1574 50  0000 C CNN
-F 2 "" H 8375 1400 50  0001 C CNN
-F 3 "~" H 8375 1400 50  0001 C CNN
-	1    8375 1400
-	-1   0    0    1   
-$EndComp
-$Comp
 L Amplifier_Operational:TL072 U202
 U 3 1 5C3F991F
 P 8750 1400
@@ -121,28 +110,6 @@ Wire Wire Line
 Connection ~ 9850 1100
 Wire Wire Line
 	9850 1100 10050 1100
-$Comp
-L power:PWR_FLAG #FLG0201
-U 1 1 5C8AF822
-P 9000 1100
-F 0 "#FLG0201" H 9000 1175 50  0001 C CNN
-F 1 "PWR_FLAG" H 9025 1325 50  0000 C CNN
-F 2 "" H 9000 1100 50  0001 C CNN
-F 3 "~" H 9000 1100 50  0001 C CNN
-	1    9000 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0203
-U 1 1 5C8AF949
-P 8800 1700
-F 0 "#FLG0203" H 8800 1775 50  0001 C CNN
-F 1 "PWR_FLAG" H 8800 1874 50  0000 C CNN
-F 2 "" H 8800 1700 50  0001 C CNN
-F 3 "~" H 8800 1700 50  0001 C CNN
-	1    8800 1700
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	11150 600  11150 1900
 $Comp
@@ -357,9 +324,6 @@ $EndComp
 Wire Wire Line
 	8650 1700 8725 1700
 Connection ~ 8725 1700
-Wire Wire Line
-	8725 1700 8800 1700
-Connection ~ 8800 1700
 Connection ~ 9175 1700
 Wire Wire Line
 	9175 1700 9400 1700
@@ -372,11 +336,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 1100 8725 1100
 Connection ~ 8725 1100
-Wire Wire Line
-	8725 1100 9000 1100
-Connection ~ 9000 1100
-Wire Wire Line
-	9000 1100 9175 1100
 Connection ~ 9175 1100
 Wire Wire Line
 	9175 1100 9400 1100
@@ -386,9 +345,6 @@ Wire Wire Line
 Connection ~ 9600 1100
 Wire Wire Line
 	9600 1100 9800 1100
-Connection ~ 8525 1400
-Wire Wire Line
-	8375 1400 8525 1400
 Text Label 9850 975  0    50   ~ 0
 -12v
 Text Label 9850 1700 0    50   ~ 0
@@ -545,8 +501,6 @@ Wire Wire Line
 	9800 1700 10050 1700
 Wire Wire Line
 	8525 1400 9175 1400
-Wire Wire Line
-	8800 1700 9175 1700
 $Comp
 L power:-12V #PWR0201
 U 1 1 5D9A1E81
@@ -2443,4 +2397,8 @@ $EndComp
 Connection ~ 3800 5950
 Wire Wire Line
 	3800 5950 4000 5950
+Wire Wire Line
+	8725 1700 9175 1700
+Wire Wire Line
+	8725 1100 9175 1100
 $EndSCHEMATC
