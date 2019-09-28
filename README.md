@@ -52,3 +52,4 @@ First RIAA amplifier
 # Inspiration from 
 https://www.resynthesis.shop/epages/zuunneamm4zd.sf/en_GB/?ObjectPath=/Shops/zuunneamm4zd/Products/REEU-HEX-808-TM1
 ![](AteOhAte_TOMS_schematic_v1.png)
+![](KicadJE_AteOhAte/RIAA.gif)
