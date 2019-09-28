@@ -12,14 +12,14 @@ First Drum module
 | ------------- | ------------- | ------------- |
 | create material  | sch/pcb | OK  |
 | | gerber | OK |
-| production  |   | OK |
-|  | produced | OK |
-|  | delivered | OK |
+| production  |   | Pending |
+|  | produced |  |
+|  | delivered |  |
 
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | | OK |
+| Initial Inspection | |  |
 | Initial Technical Test |  | |
 | Initial Product Test |  | |
 
