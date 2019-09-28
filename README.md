@@ -2,6 +2,7 @@
 Based on Hexinverter
 
 First Drum module
+![](ReSynthesis-REEU-HEX-808-TM1.jpg)
 
 First RIAA amplifier
 
