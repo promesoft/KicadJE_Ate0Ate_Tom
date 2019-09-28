@@ -3,9 +3,12 @@ Based on Hexinverter
 
 First Drum module
 
+First RIAA amplifier
+
 # Purpose
 1 - Match Hexinverter sch with Resynthesis panel
 
+2 - Make a RIAA for the TD126
 # Status - delivered
 ## Initial 
 | Stage  | Detail | Status |
