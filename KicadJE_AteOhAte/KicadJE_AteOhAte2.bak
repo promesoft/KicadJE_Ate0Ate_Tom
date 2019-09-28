@@ -500,7 +500,7 @@ Connection ~ 9800 1700
 Wire Wire Line
 	9800 1700 10050 1700
 Wire Wire Line
-	8525 1400 9175 1400
+	8525 1400 8950 1400
 $Comp
 L power:-12V #PWR0201
 U 1 1 5D9A1E81
@@ -2398,7 +2398,38 @@ Connection ~ 3800 5950
 Wire Wire Line
 	3800 5950 4000 5950
 Wire Wire Line
-	8725 1700 9175 1700
+	8725 1700 8950 1700
 Wire Wire Line
-	8725 1100 9175 1100
+	8725 1100 8950 1100
+$Comp
+L Device:C C?
+U 1 1 5E7764B8
+P 8950 1250
+F 0 "C?" H 8750 1175 50  0000 L CNN
+F 1 "10u" H 8900 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8988 1100 50  0001 C CNN
+F 3 "~" H 8950 1250 50  0001 C CNN
+	1    8950 1250
+	-1   0    0    1   
+$EndComp
+Connection ~ 8950 1400
+Wire Wire Line
+	8950 1400 9175 1400
+Connection ~ 8950 1100
+Wire Wire Line
+	8950 1100 9175 1100
+$Comp
+L Device:C C?
+U 1 1 5E776A40
+P 8950 1550
+F 0 "C?" H 8750 1475 50  0000 L CNN
+F 1 "10u" H 8900 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8988 1400 50  0001 C CNN
+F 3 "~" H 8950 1550 50  0001 C CNN
+	1    8950 1550
+	-1   0    0    1   
+$EndComp
+Connection ~ 8950 1700
+Wire Wire Line
+	8950 1700 9175 1700
 $EndSCHEMATC

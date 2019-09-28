@@ -906,7 +906,7 @@ Wire Wire Line
 Wire Wire Line
 	6675 1900 6250 1900
 Wire Wire Line
-	6250 1900 6250 1575
+	6250 1900 6250 1750
 Connection ~ 6250 1575
 Wire Wire Line
 	6250 1575 6275 1575
@@ -1225,7 +1225,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 3850 6225 3850
 Wire Wire Line
-	6225 3850 6225 3525
+	6225 3850 6225 3725
 Connection ~ 6225 3525
 Wire Wire Line
 	6225 3525 6250 3525
@@ -1338,8 +1338,6 @@ F 3 "~" H 6375 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6225 1750 6275 1750
-Wire Wire Line
 	6475 1750 6525 1750
 Wire Wire Line
 	6525 1750 6525 1575
@@ -1371,8 +1369,6 @@ Wire Wire Line
 Connection ~ 5950 3525
 Wire Wire Line
 	5950 3525 6000 3525
-Wire Wire Line
-	6200 3725 6250 3725
 Wire Wire Line
 	6500 3725 6500 3525
 Connection ~ 6500 3525
@@ -2111,4 +2107,18 @@ Wire Wire Line
 Connection ~ 950  6425
 Wire Wire Line
 	800  6875 1500 6875
+Wire Wire Line
+	6200 3725 6225 3725
+Connection ~ 6225 3725
+Wire Wire Line
+	6225 3725 6225 3525
+Wire Wire Line
+	6225 3725 6250 3725
+Wire Wire Line
+	6225 1750 6250 1750
+Connection ~ 6250 1750
+Wire Wire Line
+	6250 1750 6250 1575
+Wire Wire Line
+	6250 1750 6275 1750
 $EndSCHEMATC
