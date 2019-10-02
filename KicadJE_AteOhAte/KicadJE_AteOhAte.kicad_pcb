@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 60)
+    (drawings 52)
     (tracks 1236)
     (zones 0)
     (modules 202)
@@ -10384,14 +10384,6 @@
   (gr_text +12V (at 102 63.5 270) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 149.75 50.5) (end 149.75 54) (layer Edge.Cuts) (width 1) (tstamp 5D8D537A))
-  (gr_line (start 99 50.5) (end 99 54) (layer Edge.Cuts) (width 1) (tstamp 5D8D5379))
-  (gr_line (start 99 54) (end 149.75 54) (layer Edge.Cuts) (width 1) (tstamp 5D8D5378))
-  (gr_line (start 99 50.5) (end 149.75 50.5) (layer Edge.Cuts) (width 1) (tstamp 5D8D5377))
-  (gr_line (start 99 146) (end 149.5 146) (layer Edge.Cuts) (width 1) (tstamp 5D8D5369))
-  (gr_line (start 99 149.5) (end 149.5 149.5) (layer Edge.Cuts) (width 1) (tstamp 5D8D5365))
-  (gr_line (start 149.5 146) (end 149.5 149.5) (layer Edge.Cuts) (width 1) (tstamp 5D8D5363))
-  (gr_line (start 99 146) (end 99 149.5) (layer Edge.Cuts) (width 1) (tstamp 5D8D535D))
   (gr_text "Reg noise to 130mV" (at 81 59) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.14)))
   )
