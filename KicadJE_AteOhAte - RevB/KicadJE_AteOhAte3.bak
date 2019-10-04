@@ -319,9 +319,9 @@ F 8 "TO-236-3 Taitron" H 1100 5500 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 Text GLabel 1250 4900 0    50   Input ~ 0
-InAccent
+InAccent2
 Text GLabel 650  6700 1    50   Input ~ 0
-InGate
+InGate2
 $Comp
 L Device:R R314
 U 1 1 5D95A7C6
@@ -921,7 +921,7 @@ U 1 1 5DB4242C
 P 4350 6200
 F 0 "D311" V 4425 6125 50  0000 L CNN
 F 1 "1N4148" V 4250 6100 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 4350 6200 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4350 6200 50  0001 C CNN
 F 3 "~" H 4350 6200 50  0001 C CNN
 	1    4350 6200
 	0    1    1    0   
@@ -1117,7 +1117,7 @@ U 1 1 5DC7985D
 P 4900 3800
 F 0 "D309" H 4950 3850 50  0000 L CNN
 F 1 "1N4148" V 4900 3900 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 4900 3800 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4900 3800 50  0001 C CNN
 F 3 "~" H 4900 3800 50  0001 C CNN
 	1    4900 3800
 	1    0    0    -1  
@@ -1128,7 +1128,7 @@ U 1 1 5DC7A2AA
 P 4900 3950
 F 0 "D310" H 4650 3900 50  0000 L CNN
 F 1 "1N4148" V 5000 3650 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 4900 3950 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 4900 3950 50  0001 C CNN
 F 3 "~" H 4900 3950 50  0001 C CNN
 	1    4900 3950
 	-1   0    0    1   
@@ -1342,7 +1342,7 @@ F 3 "~" H 8900 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 9050 5050 1    50   Input ~ 0
-OutTom
+OutTom2
 Wire Wire Line
 	9050 5200 9050 5050
 Wire Wire Line
@@ -1455,9 +1455,9 @@ F 4 "VC input" H 8750 2750 50  0001 C CNN "Function"
 	-1   0    0    -1  
 $EndComp
 Text GLabel 7650 2300 0    50   Input ~ 0
-InAccent
+InAccent2
 Text GLabel 7650 2750 0    50   Input ~ 0
-InGate
+InGate2
 $Comp
 L Connector:AudioJack2 J304
 U 1 1 5DAAB333
@@ -1474,7 +1474,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 3025 10450 2825
 Text GLabel 9950 2925 0    50   Input ~ 0
-OutTom
+OutTom2
 Wire Wire Line
 	7825 2600 7825 2650
 Wire Wire Line
@@ -1611,7 +1611,7 @@ Wire Wire Line
 	5100 6450 5200 6450
 Connection ~ 5100 6450
 Text GLabel 5500 6300 1    50   Input ~ 0
-NoiseIn
+NoiseIn2
 Wire Wire Line
 	5500 6300 5500 6450
 Connection ~ 3250 5150
@@ -1695,7 +1695,7 @@ U 1 1 5D96FB68
 P 1050 7150
 F 0 "D313" V 1050 7200 50  0000 L CNN
 F 1 "1N4148" V 950 7050 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 1050 7150 50  0001 C CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1050 7150 50  0001 C CNN
 F 3 "~" H 1050 7150 50  0001 C CNN
 	1    1050 7150
 	0    1    1    0   
@@ -1868,8 +1868,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8650 1400 50  0001 C CNN
 	3    8650 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 9700 2275 0    50   Input ~ 0
-NoiseIn
 Text Label 3300 5650 0    50   ~ 0
 PNP_B
 Text Label 3650 5350 0    50   ~ 0
@@ -1916,13 +1914,9 @@ Wire Wire Line
 Wire Wire Line
 	3650 5950 4000 5950
 Wire Wire Line
-	4000 5550 4350 5550
-Wire Wire Line
 	7650 2300 7825 2300
 Wire Wire Line
 	7650 2750 7825 2750
-Wire Wire Line
-	850  5500 850  6400
 Wire Wire Line
 	8525 1400 8950 1400
 Wire Wire Line
@@ -2127,4 +2121,16 @@ Wire Wire Line
 Connection ~ 9600 1400
 Wire Wire Line
 	9600 1400 9900 1400
+Text GLabel 9700 2275 0    50   Input ~ 0
+NoiseIn2
+Wire Wire Line
+	4000 5550 4100 5550
+Connection ~ 4100 5550
+Wire Wire Line
+	4100 5550 4350 5550
+Wire Wire Line
+	850  5500 850  6000
+Connection ~ 850  6000
+Wire Wire Line
+	850  6000 850  6400
 $EndSCHEMATC
