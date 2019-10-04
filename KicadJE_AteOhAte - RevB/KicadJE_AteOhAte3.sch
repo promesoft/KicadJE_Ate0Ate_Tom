@@ -157,17 +157,6 @@ F 3 "~" H 9175 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Amplifier_Operational:TL072 U303
-U 3 1 5D4ABFB1
-P 8825 1400
-F 0 "U303" H 8725 2150 50  0000 C CNN
-F 1 "TL072" H 8700 2000 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 8825 1400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8825 1400 50  0001 C CNN
-	3    8825 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Amplifier_Operational:TL072 U301
 U 1 1 5CE1CD21
 P 5150 5000
@@ -1935,11 +1924,9 @@ Wire Wire Line
 Wire Wire Line
 	850  5500 850  6400
 Wire Wire Line
-	8525 1400 9900 1400
+	8525 1400 8950 1400
 Wire Wire Line
-	8550 1700 10050 1700
-Wire Wire Line
-	8550 1100 9850 1100
+	8550 1100 8650 1100
 Wire Wire Line
 	10600 2175 10450 2175
 $Comp
@@ -1995,7 +1982,7 @@ U 1 1 5DA20D64
 P 10800 2275
 F 0 "J301" H 10567 2346 50  0000 R CNN
 F 1 "Noise_In" H 10567 2255 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_Ledino_KB3SPRS_Horizontal" H 10800 2275 50  0001 C CNN
+F 2 "AJ-Dropbox-Kicad:PJ301SM" H 10800 2275 50  0001 C CNN
 F 3 "~" H 10800 2275 50  0001 C CNN
 F 4 "VC input" H 10800 2275 50  0001 C CNN "Function"
 	1    10800 2275
@@ -2090,4 +2077,54 @@ F 3 "~" H 8125 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8275 2650 8400 2650
+Wire Wire Line
+	9850 1100 9800 1100
+Connection ~ 8650 1100
+Wire Wire Line
+	8650 1100 8950 1100
+Connection ~ 8950 1100
+Wire Wire Line
+	8950 1100 9175 1100
+Connection ~ 9175 1100
+Wire Wire Line
+	9175 1100 9400 1100
+Connection ~ 9400 1100
+Wire Wire Line
+	9400 1100 9600 1100
+Connection ~ 9600 1100
+Wire Wire Line
+	9600 1100 9800 1100
+Connection ~ 9800 1100
+Wire Wire Line
+	8550 1700 8650 1700
+Connection ~ 8650 1700
+Wire Wire Line
+	8650 1700 8950 1700
+Connection ~ 9800 1700
+Wire Wire Line
+	9800 1700 10050 1700
+Connection ~ 8950 1700
+Wire Wire Line
+	8950 1700 9175 1700
+Connection ~ 9175 1700
+Wire Wire Line
+	9175 1700 9400 1700
+Connection ~ 9400 1700
+Wire Wire Line
+	9400 1700 9600 1700
+Connection ~ 9600 1700
+Wire Wire Line
+	9600 1700 9800 1700
+Connection ~ 8950 1400
+Wire Wire Line
+	8950 1400 9175 1400
+Connection ~ 9175 1400
+Wire Wire Line
+	9175 1400 9400 1400
+Connection ~ 9400 1400
+Wire Wire Line
+	9400 1400 9600 1400
+Connection ~ 9600 1400
+Wire Wire Line
+	9600 1400 9900 1400
 $EndSCHEMATC
