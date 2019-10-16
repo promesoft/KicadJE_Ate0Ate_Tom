@@ -11,15 +11,15 @@ First RIAA amplifier
 1 - Match Hexinverter sch with Resynthesis panel
 
 2 - Make a RIAA for the TD126
-# Status - ordered
+# Status - in the mail
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch/pcb | OK  |
 | | gerber | OK |
-| production  |   | ordered |
-|  | produced |  |
-|  | delivered |  |
+| production  |   | ok |
+|  | produced | ok |
+|  | delivered | in the mail |
 
 ## Preliminary validation
 | Test  | Detail | Status |
