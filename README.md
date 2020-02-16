@@ -19,7 +19,7 @@ First RIAA amplifier
 | | gerber | OK |
 | production  |   | ok |
 |  | produced | ok |
-|  | delivered | in the mail |
+|  | delivered | ok |
 
 ## Preliminary validation
 | Test  | Detail | Status |
